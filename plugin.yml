@@ -1,0 +1,26 @@
+name: ChestBankReduced
+main: me.SgtMjrME.ChestBankReduced.ChestBankReduced
+version: 0.02
+description: Whoops, wrong description :P
+             Basic ChestBank
+
+commands:
+    cbr: 
+        description: Used for all commands
+        usage: /cbr set | see | remove | edit
+
+permissions:
+    CBR.control:
+        description: Needed for all other perms
+    CBR.set:
+        description: Set and remove chestbanks
+    CBR.see:
+        description: See's bank, cannot edit.
+    CBR.edit:
+        description: See and edit a players bank
+    CBR.virt1:
+        description: See first line of bank virtually
+    CBR.virt2:
+        description: See second line of bank virtually
+    CBR.virt3:
+        description: See third line of bank virtually
